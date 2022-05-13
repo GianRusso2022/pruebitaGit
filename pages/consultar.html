@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/icono.png">
+    <title>LosPaseos-Consultar</title>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <img src="../img/nav.png" alt="">
+        </label>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+                <li><a href="perros.html">Nuestros perros</a></li>
+                <li><a href="recorrido.html">Zonas</a></li>
+                <li><a href="consultar.html">Consultar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="principal">
+            <h1>Complete el formulario para consultar disponibilidad horaria</h1>
+            <div class="formulario">
+                <article>
+                    <form action="#">
+                        <input type="text" placeholder="Nombre"><br>
+                        <label for="email">Email:
+                            <input type="email" placeholder="ejemplo@gmail.com" name="email"><br>
+                        </label>
+                        <label for="Informacion"> Informacion del perro:<br>
+                            <textarea placeholder="tamaño, edad, castrado/a."></textarea>
+                        </label> <br>
+                        <div>Zona:
+                            <select name="Zona" id="Zona">
+                                <option value="Zona Sur">Zona Sur</option>
+                                <option value="Zona Norte">Zona Norte</option>
+                                <option value="Rada Tilly">Rada Tilly</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Resetear">
+                    </form>
+                </article>
+            </div>
+
+            <img src="../img/icono.png" alt="">
+        </section>
+    </main>
+
+    <footer>
+        <div class="icono-home">
+            <a href=""><img src="../img/home.png" alt=""></a>
+        </div class="icono">
+
+        <div class="icono-instagram">
+            <a href="https://www.instagram.com/lospaseos/" target="_blank"><img src="/img/instagram.png" alt=""></a>
+        </div>
+
+        <div class="icono-facebook">
+            <a href=""><img src="../img/facebook.png" alt=""></a>
+        </div>
+
+        <div class="icono-wpp">
+            <a href="index.html"><img src="../img/whatsapp.png" alt=""></a>
+        </div>
+
+        <div class="copy">
+            <h6> LosPaseos &copy; 2020</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
